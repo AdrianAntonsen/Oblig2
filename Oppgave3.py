@@ -5,9 +5,9 @@ antall_pos = 0
 antall_neg = 0
 
 for i in range(0, n):
-    pos1 = np.random.uniform(-1, 1.1)
-    pos2 = np.random.uniform(-1, 1.1)
-    pos3 = np.random.uniform(-1, 1.1)
+    pos1 = np.random.uniform(-1, 1)
+    pos2 = np.random.uniform(-1, 1)
+    pos3 = np.random.uniform(-1, 1)
 
     if (pos1 > 0 and pos2 > 0 and pos3 > 0):
         antall_pos +=1
